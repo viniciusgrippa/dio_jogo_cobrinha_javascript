@@ -4,6 +4,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
     color: rgb(45, 119, 45);
+}
+
+h1 {
+    font-size: 64px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+p {
+    color: black;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 10px;
+    align-items: center;
+}
+
+canvas {
+    border: 10px solid #12880e;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    border: 5px solid #12880e;
+    border-radius: 20px;
 }
